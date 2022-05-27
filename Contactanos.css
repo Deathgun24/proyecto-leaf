@@ -1,0 +1,308 @@
+body {
+    background-image:url('fondobueno.png');
+    background-repeat: no-repeat;
+    background-size: 310% ;
+}
+.buscador{
+    width: 350px;
+    height: 45px;
+    position: absolute;
+    left: 150px;
+    top: 25px;
+    border-radius: 40px;
+}
+.logo{
+    position:absolute;
+    left: -20px;
+    top: -50px;
+    width: 200px;   
+}
+
+.menu{
+      list-style: none;
+      padding: 0;
+      background: #75e7c5;
+      width: 322em;
+      height: 5em;
+      margin: auto;
+      position: fixed ;
+      left: 0px;
+      top: -1px;
+}
+.logox{
+    list-style: none;
+    padding: 0;
+    background: #75e7c5;
+    width: 32em;
+    margin: auto;
+    position: fixed ;
+    left: 1px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: block;   
+    }
+    .menu li{
+    display: inline-block;
+    text-align: center;   
+    }
+    .menu li a:hover{
+        width: 20px; 
+        height: 20px; 
+        background: #75e7c5;
+        
+       
+   }
+    .username{
+        font-family:Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        
+
+    }
+#imagenperfil{
+    position: absolute;
+    top: 125px;
+    left: 50px;
+}
+.amigos{
+    position: absolute;
+    top: 193px;
+    left:100px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.guardado{
+    position: absolute;
+    top: 265px;
+    left:100px ;
+    font-family: Arial, Helvetica, sans-serif;  
+    
+}
+.explorar{
+    position: absolute;
+    top: 330px;
+    left:100px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+a{
+    color: rgb(0, 0, 0);
+}
+#simbologuardar{
+    position: absolute;
+    top: 265px;
+    left: 50px;
+}
+#simboloamigos{
+    position: absolute;
+    top: 195px;
+    left: 50px;
+}
+#simboloexplorar{
+    position: absolute;
+    top: 330px;
+    left: 50px;
+}
+.noticias{
+    position: absolute;
+    top: 400px;
+    left:100px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#simbolonoticias{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+.tabla{
+    border-radius: 10px;
+    position: fixed;
+    top: 100px ;
+    left: 450px ;
+}
+.tabla1{
+    border-radius: 10px;
+    position: absolute;
+    top: 100px ;
+    left: 550px ;
+}
+.imagendeejemplo{
+    position: absolute;
+    top: 290px ;
+    left: 550px;
+}
+.primermensaje{
+   position:absolute;
+   top: 200px;
+   left: 550px;
+}
+
+.segundomensaje{
+    position: absolute;
+    top: 600px;
+    left: 550px;
+}
+.imagendeejemplo2{
+    position: absolute;
+    top: 700px;
+    left: 550px;
+}
+.flotante{
+    position: fixed;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+    position: absolute;
+    top: 3000px;
+    overflow: 30%;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+
+}
+.pie-pagina .grupo-1 .box h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+.imagendavid{
+    position: relative;
+    width: 300px;
+    top: 200px;
+    left: 350px;
+}
+.textodavid{
+    position:relative;
+    top: 200px ;
+    left: 350px;
+}
+.imagenjp{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+    left: 750px;
+}
+.textojp{
+    position: absolute;
+    top: 520px ;
+    left: 750px;
+}
+.imagenmiguel{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+    left: 1150px;
+}
+.textomiguel{
+    position: absolute;
+    top: 520px ;
+    left: 1150px;
+}
+.imagenjhonatan{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 700px;
+    left: 550px;
+}
+.textojhonatan{
+    position: absolute;
+    top: 1020px ;
+    left: 550px;
+}
+.imagenmarko{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 700px;
+    left: 950px;
+}
+.textomarko{
+    position: absolute;
+    top: 1020px ;
+    left: 950px;
+}
+.asesores{
+    position: absolute;
+    top:1200px ;
+    left: 350px;
+    color: blue;
+}
+.grupo{
+    color: green;
+    position: absolute;
+    top:1450px ;
+    left: 350px;
+}
