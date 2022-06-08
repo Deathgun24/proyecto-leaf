@@ -1,0 +1,43 @@
+header {
+    position: relative;
+    background-color: black;
+    height: 828px;
+    
+    width: 100%;
+    overflow: hidden;
+  }
+
+  header video {
+    position: absolute;
+    top: 33em;
+    left: 50%;
+
+    width: 1600px;
+    height: 1000px;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  header .container {
+    position: relative;
+    z-index: 1;
+    left: 350px;
+    top: 40px;
+    height: 500px;
+  }
+
+  .logo {
+    position: relative;
+    bottom: 40px;
+    margin-bottom: -100px;
+  }
+
+
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+
+  

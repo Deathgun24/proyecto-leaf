@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LEAF</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="PaginaPrincipal.css">
+  </head>
+  <script>
+    
+    const navToggle = document.querySelector(".nav-toggle");
+    const navMenu = document.querySelector(".nav-menu");
+    
+    navToggle.addEventListener("click", () => {
+      navMenu.classList.toggle("nav-menu_visible");
+    
+      if (navMenu.classList.contains("nav-menu_visible")) {
+        navToggle.setAttribute("aria-label", "Cerrar menú");
+      } else {
+        navToggle.setAttribute("aria-label", "Abrir menú");
+      }
+    });
+      </script>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<header>
+
+        <!-- BARRA DE NAVEGACION -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:fixed;z-index: 2;width: 1600px; font-size: 25px; ">
+            <img src="logo_2.png" alt="" width="160px" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="position: relative; right: 1400px;" >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown" style="margin-right: 100px;margin-left: 100px;">
+                  <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                </li>
+                <li class="nav-item dropdown" style="margin-right: 100px;">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    MI ESPACIO
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">PERFIL</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">GUARDADO</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">NOTICIAS</a></li>
+                  </ul>
+
+                </li>
+                <li class="nav-item" style="margin-right: 100px;">
+                  <a class="nav-link" href="#">EXPLORAR</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link ">CONTACTANOS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+    
+      <!-- VIDEO BACKGROUND-->
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="Vid.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+      <!-- ESCRITURA Y IMAGEN EN VIDEO BACKGROUND-->
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div >  
+            <img src="logo_3.png" alt="" width="500px" style="position:relative;right: 25em;">
+            <p style="color: #ccc;position:relative;right: 370px;font-size: 30px; margin-right: -50px;">Somos una empresa enfocada en la elaboración de eventos sociales con el objetivo de promover el cuidado del medio ambiente</p>
+          </div>
+        </div>
+      </div>
+</header>
+<div class="container">
+  <div class="row,container text-center"><h1 style="font-size: 70px;">PROXIMOS EVENTOS LEAF </h1></div>
+</div>
+      <!-- SLIDER O CAROUSEL -->
+<div class="container">
+  <div class="row">
+      <div class="col-sm-12">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="width: 1585px;right: 145px;">
+              <div class="carousel-inner" >
+                <div class="carousel-item active" style="">
+                  <img src="https://cdn-blob.austria.info/cms-uploads-prod/default/0002/75/thumb_174757_default_gallery_big.jpeg" class="d-block w-100" alt="..."
+                    height="770px">
+                  <div class="carousel-caption d-none d-md-block">
+                    <table class="table" style="width: 1597px;position: relative; right: 250px;height: 100px;top: 55px;font-family: 'Courier New', Courier, monospace;">
+                      <tr> 
+                         <td class="table-dark" style="font-size: 40px;z-index: -2;">EVENTO DE CAMPAMENTO</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                 <a href=""><img src="https://www.elfinanciero.com.mx/resizer/Lo0IFQ0M3GF3EXWezaDwb-h_YfY=/arc-photo-elfinanciero/arc2-prod/public/UJMC27YVJICKS5FWPAT4VEEFO4.jpg" class="d-block w-100" alt="..."
+                  height="770px"></a> 
+                  <div class="carousel-caption d-none d-md-block">
+                    <table class="table" style="width: 1597px;position: relative; right: 250px;height: 100px;top: 55px;font-family: 'Courier New', Courier, monospace;">
+                      <tr> 
+                         <td class="table-dark" style="font-size: 40px;">EVENTO DE PLANTAMIENTO</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <img src="https://www.crushpixel.com/big-static18/preview4/running-autumn-forest-dry-leaves-2788911.jpg" class="d-block w-100" alt="..."
+                   height="770px">
+                  <div class="carousel-caption d-none d-md-block">
+                    <table class="table" style="width: 1597px;position: relative; right: 250px;height: 100px;top: 55px;font-family: 'Courier New', Courier, monospace;">
+                      <tr> 
+                         <td class="table-dark" style="font-size: 40px;">EVENTO COMPETITIVO</td>
+                      </tr>
+                    </table>
+                    <p style="font-size: 30px;"></p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style="background-color: rgb(0, 0, 0);width: 13em;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" style="background-color: rgb(0, 0, 0);width: 13em;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </div>
+  </div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
+<div class="container">
+  <div class="row,container text-center"><h1 style="font-size: 70px">SÉ PARTE DE NOSOTROS </h1></div>
+</div>
+      <!-- STOCK   -->
+    <div  style="background-color: rgb(6, 34, 2);width: 99em;position: relative;top: 10px;left: 0px; height: 60em;">
+      <div class="container text-center" style="color: rgb(255, 255, 255); font-size: 40px;">
+        <h1 class="display-4" style="font-family:'Courier New', Courier, monospace;">SUSCRIPCIONES</h1>
+        <p class="lead" style="font-family:'Courier New', Courier, monospace;"> Suscríbase para obtener grandes beneficios.
+        </p>
+        
+      </div>
+      <div class="container text-center" >
+        <!-- row: para envolverlo en una fila  
+             row-cols-1: para que sea responsive y acepte 1 columna
+             row-cols-md-3: para que acepte 3 columnas en la fila
+             col: para envolverlo en una columna
+             shadow-sm: para colocar sombra a la tarjeta de diferentes tamaños (-sm,-lg) -->    
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card shadow-lg border-dark">
+                <div class="card-header py-3 text-white bg-dark border-dark">
+                        <h4 >Gratis</h4>
+                    </div>
+                    <div class="card-body">
+                          <!-- my-0: margin-top y margin-bottom en 0
+                               text-muted: para recrear el texto pequeño de encabezado secundario -->
+                        <h1 class="my-0 font-weight-normal">S/.0 
+                        <small class="text-muted">/mes</small></h1>
+                        <!-- list-unstyled: para tener una lista sin estilo
+                             mt-3: margin-top 3 -> 1rem
+                             mb-4: margin-bottom -> 1.5rem
+                             w-100: para que el botón se estire al tamaño completo de la fil -->
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 envíos gratis incluidos</li>
+                            <li>5% descuento en las primeras 10 compras</li>
+                            <li>Soporte de correo</li>
+                            <li>Acceso al centro de ayuda</li>
+                        </ul>
+                        <button class="btn btn-outline-dark btn-lg w-100">Comprar </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card shadow-lg border-dark">
+                <div class="card-header py-3 text-white bg-dark border-dark,font-family:">
+                        <h4>Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- my-0: margin-top y margin-bottom en 0
+                             text-muted: para recrear el texto pequeño de encabezado secundario -->
+                        <h1 class="my-0 font-weight-normal">S/.10.99
+                        <small class="text-muted">/mes</small></h1>
+                        <!-- list-unstyled: para tener una lista sin estilo
+                             mt-3: margin-top 3 -> 1rem
+                             mb-4: margin-bottom -> 1.5rem -->
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>50 envíos gratis incluidos</li>
+                            <li>5% descuento en las primeras 20 compras</li>
+                            <li>Soporte de correo</li>
+                            <li>Acceso al centro de ayuda</li>
+                        </ul>
+                        <button class="btn btn-outline-dark btn-lg w-100">Comprar </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card shadow-lg border-dark">
+                    <div class="card-header py-3 text-white bg-dark border-dark,font-family">
+                        <h4>Mayorista</h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- my-0: margin-top y margin-bottom en 0
+                             text-muted: para recrear el texto pequeño de encabezado secundario
+                        -->
+                        <h1 class="my-0 font-weight-normal">S/.200.99
+                        <small class="text-muted">/mes</small></h1>
+                        <!-- list-unstyled: para tener una lista sin estilo
+                             mt-3: margin-top 3 -> 1rem
+                             mb-4: margin-bottom -> 1.5rem -->
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>500 envíos gratis incluidos</li>
+                            <li>10% descuento en las primeras 40 compras</li>
+                            <li>Soporte de correo</li>
+                            <li>Acceso al centro de ayuda</li>
+                        </ul>
+                        <button class="btn btn-outline-dark btn-lg w-100">Comprar </button>
+                    </div>
+                </div>
+            </div>
+          </div>
+</div>
+
+
+<div class="container text-center" style="color: rgb(255, 255, 255)">
+    
+  <h1 class="display-4" style="font-family:'Courier New', Courier, monospace;">COMPARAR PLANES</h1>
+  
+    <div class="table-responsive" >
+        <table class="table text-center" style="color: rgb(255, 255, 255)">
+          <thead>
+            <tr>
+              <th style="width: 34%;"></th>
+              <th style="width: 22%;">Gratis</th>
+              <th style="width: 22%;">Pro</th>
+              <th style="width: 22%;">Negocios</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Público</th>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Privado</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+          </tbody>
+  
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Permisos</th>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Compartir</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Miembros ilimitados</th>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Seguridad extra</th>
+              <td></td>
+              <td></td>
+              <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+</div>  
+</div>      
+</main>
+
+    </div>
+    
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
